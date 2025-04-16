@@ -20,7 +20,10 @@ public class LoginFrame extends JFrame {
         setResizable(false);
 
         // Set a background image
-        ImageIcon backgroundImage = new ImageIcon("C:\\Users\\HP\\Downloads\\pic.jpg"); // Replace with your image path
+        ImageIcon rawIcon = new ImageIcon(getClass().getResource("/loginpic.jpg"));
+        Image scaledImage = rawIcon.getImage().getScaledInstance(600, 400, Image.SCALE_SMOOTH);
+        ImageIcon backgroundImage = new ImageIcon(scaledImage);
+
         JLabel backgroundLabel = new JLabel(backgroundImage);
         backgroundLabel.setLayout(new BorderLayout());
 
