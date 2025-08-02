@@ -1,4 +1,4 @@
-# HospitalManagementSystem
+
 # Hospital Management System 🏥
 
 A comprehensive desktop application built with Java Swing for managing hospital operations efficiently. This system provides role-based access control and streamlines various hospital processes including patient management, appointment scheduling, medical records, and billing.
